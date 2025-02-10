@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 0, 0, .8);
+    font-family: arial;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+.container{
+    background-color: white;
+    padding: 8px;
+    border-radius: 2rem;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    font-size: 1.3rem;
+    padding: 5px;
+    color: blue;
+    border-radius: 2rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
