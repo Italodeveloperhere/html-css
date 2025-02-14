@@ -1,0 +1,71 @@
+*{
+   margin: 5px;
+   padding: 5px;
+   border: solid 2px rgba(0, 0, 0, .1);
+   color: black;
+}
+
+body{
+   border: solid 1px red;
+}
+hr,button{
+   font-size: 20px;
+}
+
+/* <named-color> values
+   color: red;
+   color: orange;
+   color: tan;
+   color: rebeccapurple;
+*/
+ .color-name h1{
+    color: blue;
+ }
+ .color-name h2{
+    color: darkred;
+ }
+ .color-name p,.color-name button{
+   font-size: 18px;
+ }
+ .color-name button{
+    padding: 5px;
+    color: white;
+ }
+
+ /*<hex-color> values 
+   color: #090;
+   color: #009900;
+   color: #090a;
+   color: #009900aa;
+ */
+ .color-hexdecimal h1{
+    color: #9a6;
+ }
+
+.color-hexdecimal p{
+   background-color: #88f;
+}
+.color-hexdecimal button{
+   background-color: aquamarine;
+   color: #111;
+   font-size: 20px;
+}
+
+ /* RGB(Red,Green,Blue) | RGBA(Red,Green,Blue)
+   color: rgb(34, 12, 64);
+   color: rgba(34,12,64 / 0.6);
+ */
+.color-rgb h1{
+   color: rgb(90, 165, 200);
+}
+.color-rgb p{
+   background-color: rgb(20, 30, 25);
+   color: rgb(255, 255, 255);
+}
+.color-rgb button{
+   background-color: rgb(0, 0, 0);
+   color: rgb(100, 100, 0);
+}
+.color-rgb h2{
+   background-color: rgba(0, 0, 0, .5);
+}
